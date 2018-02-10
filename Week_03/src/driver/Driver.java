@@ -6,9 +6,9 @@ import house.House;
 
 public class Driver {
 	public static void main(String[] args) {
-		final House house = new House();
-		final Door door = new Door();
-		final Table table = new Table();
+		House house = new House(4);
+		Door door = new Door();
+		Table table = new Table();
 		
 		door.setMaterial("Metal");
 		table.setMaterial("Wood");
